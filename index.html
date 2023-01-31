@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>शिवमुद्रा</title>
+
+    <!-- Font-Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <!-- External Css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/utilities.css">
+</head>
+
+<body>
+
+    <header class="hero">
+        <div id="navbar" class="navbar">
+            <a class="logo">
+                <img style="height: 72px; width: 72px;" src="./img/logo.jpeg" alt="hote_logo" />
+            </a>
+        </div>
+        <div class="content">
+            <h1>
+                हॉटेल <span class="text-primary">शिव</span>मुद्रा
+            </h1>
+            <p>We Provide World Class Dinning .</p>
+            <a href="#about" class="btn">Explore Offers<i class="fa fa-chevron-right" style="margin-left:5px"></i></a>
+        </div>
+    </header>
+
+    <main>
+        <!-- About -->
+        <section id="about" class="section-container spin-bgc">
+            <div class="wheel-container">
+                <div class="one">10%</div>
+                <div class="two">12%</div>
+                <div class="three">14%</div>
+                <div class="four">16%</div>
+                <div class="five">18%</div>
+                <div class="six">20%</div>
+                <div class="seven">22%</div>
+                <div class="eight">24%</div>
+            </div>
+            <span class="mid"></span>
+            <button id="spin" onclick="btnOnclick()">Let's roll</button>
+            <div class="stoper"></div>
+        </section>
+    </main>
+    <script src="./index.js"></script>
+</body>
+
+</html>
