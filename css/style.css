@@ -69,11 +69,11 @@ img {
 }
 
 .hero .content h1 {
-  font-size: 55px;
+  font-size: 65px;
 }
 
 .hero .content p {
-  font-size: 23px;
+  font-size: 30px;
   max-width: 600px;
   margin: 20px 0 30px;
 }
@@ -132,12 +132,13 @@ logo-div {
 .wheel-container {
   height: 350px;
   width: 350px;
-  background: #4ed4c6;
+  background: #dbffff;
   position: relative;
   border-radius: 50%;
   overflow: hidden;
   box-shadow: 0 0 10px gray;
   transition: 3s all;
+  border: 4px solid #fff;
 }
 
 .wheel-container div {
@@ -156,39 +157,47 @@ logo-div {
   font-size: 20px;
   font-family: monospace;
   font-weight: 1000;
-  color: #008276;
+  color: #fff;
 }
 
 .wheel-container .one {
-  background: #baf4ee;
+  background: #dbffff;
+  color: #e82c2c;
   left: 50%;
 }
 .wheel-container .two {
-  background: #4ed4c6;
+  background: #e82c2c;
+  color: #dbffff;
   transform: rotate(45deg);
 }
 .wheel-container .three {
-  background: #baf4ee;
+  background: #dbffff;
+  color: #e82c2c;
   transform: rotate(90deg);
 }
 .wheel-container .four {
-  background: #4ed4c6;
+  background: #e82c2c;
+  color: #dbffff;
   transform: rotate(135deg);
 }
 .wheel-container .five {
-  background: #baf4ee;
+  background: #dbffff;
+  color: #e82c2c;
   transform: rotate(180deg);
 }
 .wheel-container .six {
-  background: #4ed4c6;
+  background: #e82c2c;
+  color: #dbffff;
   transform: rotate(225deg);
 }
 .wheel-container .seven {
-  background: #baf4ee;
+  background: #dbffff;
+  color: #e82c2c;
   transform: rotate(270deg);
 }
 .wheel-container .eight {
-  background: #4ed4c6;
+  background: #e82c2c;
+  color: #dbffff;
   transform: rotate(315deg);
 }
 
@@ -197,7 +206,7 @@ logo-div {
   width: 25px;
   border-radius: 50%;
   position: absolute;
-  background: #008276;
+  background: #000;
 }
 
 #spin {
@@ -222,15 +231,30 @@ logo-div {
 .stoper {
   height: 50px;
   width: 40px;
-  background: #000100;
+  background: #4e8bd6;
   position: absolute;
   clip-path: polygon(100% 0, 50% 100%, 0 0);
   margin-top: -350px;
 }
 
 .spin-bgc {
-  background: url("../img/spin_bgc.jpg") no-repeat center center/cover;
+  /* background: url("../img/pexels-rodnae-productions-6708803.jpg") no-repeat center center/cover; */
   height: 100vh;
   position: relative;
   color: #fff;
+  background-color: #000;
+}
+
+section {
+  height: 400px;
+  width: 100%;
+  text-align: center;
+  padding-top: 100px;
+  color: white;
+  overflow: hidden;
+  background: #c04848; /* fallback for old browsers */
+  background: linear-gradient(rgb(72, 0, 72, 0.8), rgb(192, 72, 72, 0.8)), url("/img/pexels-rodnae-productions-6708803.jpg"); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(rgb(72, 0, 72, 0.8), rgb(192, 72, 72, 0.8)), url("/img/pexels-rodnae-productions-6708803.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover;
+  background-repeat: no-repeat;
 }
